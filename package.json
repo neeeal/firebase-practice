@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/neeeal/firebase-practice#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.13.0",
+    "firebase-admin": "^12.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
