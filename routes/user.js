@@ -9,5 +9,9 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', controller.post);
+router.put('/:uid', controller.put);
+router.put('/disable/:uid', controller.disable);
+router.put('/enable/:uid', controller.enable);
+router.delete('/:uid', controller.delete);
 
 module.exports = router;
